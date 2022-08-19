@@ -1,0 +1,14 @@
+---
+driver=<class 'textual.drivers.linux_driver.LinuxDriver'>
+Load() >>> Pyrdle(title='Textual')
+Mount() >>> Pyrdle(title='Pyrdle')
+Mount() >>> DockView(name='DockView#1')
+Mount() >>> Header('')
+Mount() >>> View(name='board')
+view.forwarded Key(key='ctrl+c')
+Key(key='ctrl+c') >>> Pyrdle(title='Pyrdle')
+ACTION Pyrdle(title='Pyrdle') quit
+CLOSED Pyrdle(title='Pyrdle')
+PROCESS END
+CLOSED DockView(name='DockView#1')
+CLOSED Header('Pyrdle')

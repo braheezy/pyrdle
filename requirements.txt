@@ -1,0 +1,8 @@
+commonmark==0.9.1
+platformdirs==2.5.1
+Pygments==2.11.2
+pyperclip==1.8.2
+rich==12.0.0
+textual==0.1.17
+wordle-tui==0.0.1
+yapf==0.32.0

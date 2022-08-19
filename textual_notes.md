@@ -1,0 +1,6 @@
+- Using `Reactive()` adds an attribute to your class (with an optional default?) that is reactive: any changes will result in the widget updating.
+- `render()` method is where you define how the widget should be displayed
+- Functions named `watch_<name>` will be called when `self.<name>` is modified. 
+- Functions name `compute_<name>` will be called 
+- `on_mount` event when widget is first mounted (added to a parent view)
+- `on_load` bind keys with the app loads (but before entering application mode)
